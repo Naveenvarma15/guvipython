@@ -1,9 +1,8 @@
-z=input()
-try:
-    x=int(z)
-    if(x%2==0):
+z=int(input())
+if(z>0):
+    if(z%2==0):
         print("even")
     else:
         print("odd")
-except ValueError:
+else:
     print("invalid")
