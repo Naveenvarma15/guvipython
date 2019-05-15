@@ -1,8 +1,8 @@
 z=int(input())
 if(z>0):
     if(z%2==0):
-        print("even")
+        print("Even")
     else:
-        print("odd")
+        print("Odd")
 else:
     print("invalid")
