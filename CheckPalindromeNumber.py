@@ -1,0 +1,11 @@
+number=int(input())
+temp=number
+s=0
+while(number>0):
+    c=number%10
+    s=s*10+c
+    number=number//10
+if(temp==s):
+    print("yes")
+else:
+    print("no")
