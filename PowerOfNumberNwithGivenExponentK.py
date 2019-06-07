@@ -1,3 +1,4 @@
-num_N=int(input())
-k=2
-print(num_N**k)
+num_N, k=input().split()
+x=int(num_N)
+y=int(k)
+print(x**y)
