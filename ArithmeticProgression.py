@@ -1,0 +1,6 @@
+m,n,o=input().split()
+m=int(m)
+n=int(n)
+o=int(o)
+s=(m/2)*(2*n+(m-1)*o)
+print(int(s))
