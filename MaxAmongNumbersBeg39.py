@@ -1,2 +1,4 @@
-y=list(map(int,input().split()))
-print(max(y))
+number=input()
+number=number.split()
+number=list(map(int,number))
+print(max(number))
