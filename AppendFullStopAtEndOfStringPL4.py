@@ -1,0 +1,2 @@
+append=input()
+print(append+".")
