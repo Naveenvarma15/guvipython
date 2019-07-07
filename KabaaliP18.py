@@ -6,5 +6,5 @@ for i in range(n):
     m.append(input())
 for i in range(n):
     if sorted(m[i])==sorted('kabali'):
-        s+=1
+        s=s+1
 print(s)
