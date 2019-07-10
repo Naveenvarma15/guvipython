@@ -1,10 +1,10 @@
 #naveen
 n=int(input())
-m=[]
+z=[]
 s=0
 for i in range(n):
-    m.append(input())
+    z.append(input())
 for i in range(n):
-    if sorted(m[i])==sorted('kabali'):
+    if sorted(z[i])==sorted('kabali'):
         s+=1
 print(s)
