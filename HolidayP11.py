@@ -1,8 +1,8 @@
 #naveen
-n=str(input())
-if n=="Saturday":
+m=str(input())
+if m=="Saturday":
     print("yes")
-elif n=="Sunday":
+elif m=="Sunday":
     print("yes")
 else:
     print("no")
